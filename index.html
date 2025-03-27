@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtGallery | Portfólio Criativo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">ArtGallery</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transformando ideias em <span>arte digital</span></h1>
+            <p>Criações únicas que contam histórias visuais</p>
+            <a href="#portfolio" class="btn">Ver Portfólio</a>
+        </div>
+        <div class="hero-image">
+            <img src="assets/profile.jpg" alt="Artista">
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="section-header">
+            <h2>Meus Trabalhos</h2>
+            <p>Uma seleção dos meus projetos recentes</p>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="assets/images/artwork1.jpg" alt="Arte Digital 1">
+                <div class="overlay">
+                    <h3>Projeto Aurora</h3>
+                    <p>Ilustração Digital</p>
+                </div>
+            </div>
+            <!-- Adicione mais itens conforme necessário -->
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-image">
+                <img src="assets/profile.jpg" alt="Sobre Mim">
+            </div>
+            <div class="about-content">
+                <h2>Sobre o Artista</h2>
+                <p>Com 5 anos de experiência no mercado criativo, especializo-me em ilustração digital e design de interfaces. Minha abordagem combina técnicas tradicionais com tecnologia moderna.</p>
+                <div class="skills">
+                    <span>Photoshop</span>
+                    <span>Illustrator</span>
+                    <span>Procreate</span>
+                    <span>Figma</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Vamos Conversar</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Seu Nome" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Seu Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Sua Mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+            </div>
+            <p>&copy; 2023 ArtGallery. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
