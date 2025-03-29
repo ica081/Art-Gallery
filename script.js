@@ -60,14 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Gallery Images (simulação)
-    const galleryItems = [
-        { title: 'Projeto Aurora', category: 'Ilustração Digital', image: 'artwork1.jpg' },
-        { title: 'Cidade Futurista', category: 'Modelagem 3D', image: 'artwork2.jpg' },
-        { title: 'Retrato Abstrato', category: 'Pintura Digital', image: 'artwork3.jpg' },
-        { title: 'Design de Interface', category: 'UI/UX', image: 'artwork4.jpg' },
-        { title: 'Personagem Fantasy', category: 'Concept Art', image: 'artwork5.jpg' },
-        { title: 'Paisagem Onírica', category: 'Ilustração Digital', image: 'artwork6.jpg' }
-    ];
+    
     
     const gallery = document.querySelector('.gallery');
     if (gallery) {
